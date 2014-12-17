@@ -1,6 +1,6 @@
 {
-  name: "basementavr",
-  gatewayName: "marantzip",
-  gatewayHost: "10.0.0.9",
-  gatewayPort: 23
+  "name" : "basementavr",
+  "commandsetname" : "marantzip",
+  "host" : "10.0.0.9",
+  "port" : 23
 }

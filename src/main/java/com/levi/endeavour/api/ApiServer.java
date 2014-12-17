@@ -10,7 +10,7 @@ import org.glassfish.grizzly.http.server.Request;
 import org.glassfish.grizzly.http.server.Response;
 import org.glassfish.grizzly.http.server.ServerConfiguration;
 
-import com.levi.endeavour.gateway.SimpleSocket;
+import com.levi.endeavour.protocol.SimpleSocket;
 
 public class ApiServer implements Runnable, Closeable {
 	
@@ -49,10 +49,8 @@ public class ApiServer implements Runnable, Closeable {
 		SimpleSocket socket = new SimpleSocket();
 		
 		public MyHandler connect() throws UnknownHostException, IOException {
-			socket.host = "10.0.0.9";
-			socket.port = 23;
 			socket.term = "\r";
-			socket.connect();
+			socket.connect("10.0.0.9", 23);
 			return this;
 		}
 		

@@ -1,0 +1,28 @@
+{
+  "name": "marantzip",
+  "protocol": "simplesocket",
+  "term": "\r",
+  "commands": [
+    { "cmd": "PWON", "data": "PWON" },
+    { "cmd": "PWSTANDBY", "data": "PWSTANDBY" },
+    { "cmd": "PWSTANDBY", "data": "PWSTANDBY" },
+    { "cmd": "PW?", "data": "PW?" },
+    { "cmd": "MVUP?", "data": "MVUP" },
+    { "cmd": "MVDOWN", "data": "MVDOWN" },
+    { "cmd": "SISAT/CBL", "data": "SISAT/CBL" },
+    { "cmd": "SIGAME", "data": "SIGAME" },
+    { "cmd": "SIDVD", "data": "SIDVD" },
+    { "cmd": "SIV.AUX", "data": "SIV.AUX" },
+    
+    { "cmd": "MSDIRECT", "data": "MSDIRECT" },
+    { "cmd": "MSPURE DIRECT", "data": "MSPURE DIRECT" },
+    { "cmd": "MSSTEREO", "data": "MSSTEREO" },
+    { "cmd": "MSAUTO", "data": "MSAUTO" },
+    { "cmd": "MSDOLBY DIGITAL", "data": "MSDOLBY DIGITAL" },
+    { "cmd": "MSDTS SURROUND", "data": "MSDTS SURROUND" },
+    { "cmd": "MSMCH STEREO", "data": "MSMCH STEREO" },
+    
+    { "cmd": "PSSWR ON", "data": "PSSWR ON" },
+    { "cmd": "PSSWR OFF", "data": "PSSWR OFF" }
+  ]
+}
